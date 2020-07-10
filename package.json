@@ -1,0 +1,27 @@
+{
+  "name": "react-tree-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shiye515/react-tree-board.git",
+  "author": "jiashuo <jiashuo@didichuxing.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "father doc dev --storybook",
+    "build": "father doc build  --storybook",
+    "compile": "father build",
+    "gh-pages": "father doc deploy",
+    "prepublishOnly": "npm run compile && np --yolo --no-publish",
+    "lint": "eslint . --ext='jsx'",
+    "test": "father test",
+    "coverage": "father test --coverage"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "father": "^2.29.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.4"
+  }
+}

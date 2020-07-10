@@ -1,3 +1,4 @@
+.storybook
 # Logs
 logs
 *.log
@@ -80,8 +81,14 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+.doc
 dist
-
+assets/**/*.css
+build
+lib
+es
+coverage
+yarn.lock
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
