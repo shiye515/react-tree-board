@@ -1,7 +1,12 @@
 {
   "name": "react-tree-board",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "files": [
+    "es",
+    "lib"
+  ],
   "repository": "git@github.com:shiye515/react-tree-board.git",
   "author": "jiashuo <jiashuo@didichuxing.com>",
   "license": "MIT",
