@@ -1,6 +1,6 @@
 {
   "name": "react-tree-board",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index",
   "module": "./es/index",
   "files": [
