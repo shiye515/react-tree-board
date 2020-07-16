@@ -8,6 +8,7 @@ export interface Props {
   stroke?: string;
   strokeWidth?: number;
   strokeOpacity?: number;
+  content: React.ReactNode;
 }
 
 // eslint-disable-next-line react/prefer-stateless-function
